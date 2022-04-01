@@ -80,12 +80,22 @@
   color: var(--primaryColorShadow);
 }
 .straight-line {
-  position: absolute;
-  bottom: 99px;
-  left: 51px;
+  position: fixed;
+  bottom: 64px;
+  left: 50.4px;
   width: 1px;
-  height: 200px;
   background-color: var(--fontColor2);
+}
+.straight-line::before {
+  content: "";
+  position: fixed;
+  width: 22px;
+  height: 27px;
+  background: url(../img/fire.png) center no-repeat;
+  background-size: contain;
+  bottom: 59px;
+  left: 40px;
+  border-radius: 50%;
 }
 .scroller-svg {
   width: 22px;

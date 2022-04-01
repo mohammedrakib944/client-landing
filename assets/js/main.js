@@ -7,6 +7,9 @@ window.onload = () => {
 
 // nav bar added
 window.onscroll = function () {
+  let POS_Y = window.pageYOffset;
+  document.querySelector(".straight-line").style.height = POS_Y + "px";
+
   const navi = document.querySelector(".navigation");
   let height = window.pageYOffset;
   if (height >= 50) navi.classList.add("afterScroll");
@@ -15,7 +18,7 @@ window.onscroll = function () {
 
 // swiper js
 var swiper = new Swiper(".mySwiper", {
-  slidesPerView: 6,
+  slidesPerView: 5,
   spaceBetween: 30,
   slidesPerGroup: 1,
   loop: true,
