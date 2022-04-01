@@ -82,13 +82,13 @@
   padding: 7px 32px;
   border-radius: 10px 10px 0 0;
   margin: 15px 0;
-  background: linear-gradient(0, #030527, #3c6048b5);
+  background: linear-gradient(0, #030527, #3c60484f);
   border-bottom: navajowhite;
-  border-top: 1px solid var(--primaryColor);
+  border-top: 1px solid #577862;
 }
 .members-title h2 {
   margin-bottom: 0px;
-  font-size: 18px;
+  font-size: 16px;
   padding-top: 7px;
 }
 .members-title p {
@@ -116,8 +116,9 @@
 
 /* footer */
 .footersection {
-  background: black;
+  background: rgb(0 0 0 / 48%);
   padding: 70px 0;
+  margin-top: 80px;
 }
 .footer-left {
   display: flex;
@@ -127,7 +128,7 @@
   height: 100px;
 }
 .footer-left p {
-  padding: 0 20px;
+  padding: 0 50px 0 20px;
 }
 .footer-ul {
   background-color: rgba(255, 255, 255, 0.301);
@@ -146,4 +147,26 @@
 }
 .footer-ul a:hover {
   color: var(--primaryColor);
+}
+
+.footer-right {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+.footer-right ul li {
+  padding-bottom: 15px;
+}
+
+.footer-logo-last {
+  width: 100%;
+  text-align: right;
+  padding: 20px;
+  margin-top: 90px;
+  color: var(--fontColor2);
+}
+.footer-logo-last span {
+  font-weight: 600;
+  color: var(--fontColor);
+  padding-left: 10px;
 }

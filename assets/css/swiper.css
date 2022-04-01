@@ -1,7 +1,7 @@
 .swipper-container {
   padding: 10px;
   border-radius: 10px;
-  box-shadow: 0px 2px 24px #82e3a470;
+  border-top: 1px solid #dddddd36;
 }
 .swiper {
   width: 100%;
