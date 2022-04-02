@@ -5,6 +5,13 @@ window.onload = () => {
   }, 1500);
 };
 
+function showMenu() {
+  document.querySelector(".navigation").classList.add("showNav");
+}
+function hideMenu() {
+  document.querySelector(".navigation").classList.remove("showNav");
+}
+
 // nav bar added
 window.onscroll = function () {
   let POS_Y = window.pageYOffset;
@@ -18,7 +25,7 @@ window.onscroll = function () {
 
 // swiper js
 var swiper = new Swiper(".mySwiper", {
-  slidesPerView: 5,
+  slidesPerView: 4,
   spaceBetween: 30,
   slidesPerGroup: 1,
   loop: true,

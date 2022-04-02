@@ -32,31 +32,36 @@
     <link rel="stylesheet" href="./assets/css/about.css" />
     <link rel="stylesheet" href="./assets/css/roadmap.css" />
     <link rel="stylesheet" href="./assets/css/learn.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
     <title>Landing</title>
   </head>
   <body>
     <!-- loader -->
-    <!-- <div class="Loader">
-        <img src="./assets/img/loading.gif" alt="" />
-      </div> -->
+    <div class="Loader">
+      <img src="./assets/img/loading.gif" alt="" />
+    </div>
+    <div class="hambarger-menu" onclick="showMenu()">
+      <i class="fa-solid fa-bars"></i>
+    </div>
     <!-- navigation section -->
-    <nav class="navigation navigation2">
+    <nav class="navigation">
       <div class="container">
         <div class="row">
           <div class="col-md-5"></div>
           <div class="col-md-7">
             <ul class="nav-ul">
-              <li><a href="/index.html">Home</a></li>
+              <li><a href="#" class="active">Home</a></li>
               <li><a href="#about">About</a></li>
               <li><a href="#">Team</a></li>
               <li><a href="#">Roadmap</a></li>
-              <li><a href="#" class="active">Learn</a></li>
+              <li><a href="/learn.html">Learn</a></li>
               <li><a href="#">Whitepaper</a></li>
               <li><a href="#" class="marketplace-btn">Marketplace</a></li>
             </ul>
           </div>
         </div>
       </div>
+      <span class="navigation-span" onclick="hideMenu()"></span>
     </nav>
     <!-- navigation section -->
     <br /><br />
@@ -105,7 +110,7 @@
           />
         </div>
         <div class="col-md-2">
-          <div class="landing-icons mt-5">
+          <div class="landing-icons mt-5 icon-responseive">
             <ul class="landing-ul">
               <a href="#"><i class="fa-solid fa-paper-plane"></i></a>
               <a href="#"><i class="fa-brands fa-twitter"></i></a>

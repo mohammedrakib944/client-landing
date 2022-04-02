@@ -31,12 +31,16 @@
     <link rel="stylesheet" href="./assets/css/landing.css" />
     <link rel="stylesheet" href="./assets/css/about.css" />
     <link rel="stylesheet" href="./assets/css/roadmap.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
     <title>Landing</title>
   </head>
   <body>
     <!-- loader -->
     <div class="Loader">
       <img src="./assets/img/loading.gif" alt="" />
+    </div>
+    <div class="hambarger-menu" onclick="showMenu()">
+      <i class="fa-solid fa-bars"></i>
     </div>
     <!-- navigation section -->
     <nav class="navigation">
@@ -56,6 +60,7 @@
           </div>
         </div>
       </div>
+      <span class="navigation-span" onclick="hideMenu()"></span>
     </nav>
     <!-- navigation section -->
 
@@ -77,7 +82,7 @@
             <img src="assets/img/scroller.svg" class="scroller-svg animation" />
           </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 displayNone">
           <div class="landing-content">
             <img
               class="landing-imge animation"
@@ -86,7 +91,7 @@
             />
           </div>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-2 displayNone">
           <div class="landing-content">
             <div class="landing-icons">
               <ul class="landing-ul">
