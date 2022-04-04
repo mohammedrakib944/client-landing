@@ -20,6 +20,7 @@ body {
 }
 body {
   background: url("./assets/img/mainBG.svg");
+  background-size:contain;
   background-color: var(--bgColor);
   color: var(--fontColor);
 }
