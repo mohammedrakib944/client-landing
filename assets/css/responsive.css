@@ -65,7 +65,7 @@
     margin-top: 12px;
   }
   .roadmap-left {
-    display: none;
+    /* display: none; */
   }
   ul.roadmap-ul {
     padding: 0 12px;
