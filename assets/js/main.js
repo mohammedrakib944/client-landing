@@ -2,7 +2,7 @@
 window.onload = () => {
   setTimeout(() => {
     document.querySelector(".Loader").style.display = "none";
-  }, 100);
+  }, 1);
 };
 
 function showMenu() {

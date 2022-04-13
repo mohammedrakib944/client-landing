@@ -6,6 +6,7 @@
   --bgColor: #030527;
   --fontColor: rgb(235, 222, 247);
   --fontColor2: rgb(154 154 168);
+  --fontSize: 18px;
 }
 
 * {
@@ -20,7 +21,7 @@ body {
 }
 body {
   background: url("./assets/img/mainBG.svg");
-  background-size:contain;
+  background-size: contain;
   background-color: var(--bgColor);
   color: var(--fontColor);
 }
@@ -43,7 +44,7 @@ li {
 }
 .title2 {
   font-weight: 700;
-  font-size: 28px;
+  font-size: 30px;
   color: var(--fontColor);
 }
 .title2 span {

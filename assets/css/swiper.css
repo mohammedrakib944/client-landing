@@ -1,7 +1,8 @@
 .swipper-container {
   padding: 10px;
   border-radius: 10px;
-  border-top: 1px solid #dddddd36;
+  border: 1px solid #dddddd36;
+  background: radial-gradient(#56576c, transparent);
 }
 .swiper {
   width: 100%;
@@ -12,7 +13,6 @@
   text-align: center;
   font-size: 18px;
   background: none;
-
   /* Center slide text vertically */
   display: -webkit-box;
   display: -ms-flexbox;
@@ -30,8 +30,8 @@
 
 .swiper-slide img {
   display: block;
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   object-fit: contain;
 }
 

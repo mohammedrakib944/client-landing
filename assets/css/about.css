@@ -17,10 +17,12 @@
 .about-contents p {
   line-height: 30px;
   color: var(--fontColor2);
+  font-size: var(--fontSize);
 }
 
 /* desc */
 .des-p {
   color: var(--fontColor2);
   line-height: 30px;
+  font-size: var(--fontSize);
 }

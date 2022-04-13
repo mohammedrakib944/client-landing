@@ -43,7 +43,7 @@
   padding: 30px 0;
 }
 .roadmap-ul li {
-  font-size: 17px;
+  font-size: 18px;
   font-weight: 600;
   padding-bottom: 12px;
 }
@@ -88,12 +88,13 @@
 }
 .members-title h2 {
   margin-bottom: 0px;
-  font-size: 16px;
+  font-size: var(--fontSize);
   padding-top: 7px;
 }
 .members-title p {
   margin-bottom: 0px;
   color: var(--fontColor2);
+  font-weight: 500;
 }
 .members-icon {
   display: flex;
