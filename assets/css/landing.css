@@ -108,7 +108,8 @@
 }
 .landing-imge {
   width: 100%;
-  filter: drop-shadow(5px 5px 0 var(--primaryColor));
+  border: 1px solid var(--primaryColor);
+  filter: drop-shadow(10px 10px 0 var(--primaryColor));
 }
 .landing-icons {
   display: flex;
