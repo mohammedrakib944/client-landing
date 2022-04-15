@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/x-icon" href="./assets/img/favicon.ico" />
-    <!-- Link Swiper's CSS -->
+    <link rel="shortcut icon" type="iWemage/x-icon" href="img/favicon.png" />
+     <!-- Link Swiper's CSS -->
     <link
       rel="stylesheet"
       href="https://unpkg.com/swiper/swiper-bundle.min.css"
@@ -33,7 +33,16 @@
     <link rel="stylesheet" href="./assets/css/roadmap.css" />
     <link rel="stylesheet" href="./assets/css/learn.css" />
     <link rel="stylesheet" href="./assets/css/responsive.css" />
-    <title>Landing</title>
+    <title>DoRac</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-210976482-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-210976482-1');
+    </script>
   </head>
   <body>
     <!-- loader -->
@@ -52,10 +61,9 @@
             <ul class="nav-ul">
               <li><a href="/">Home</a></li>
               <li><a href="#about">About</a></li>
-              <li><a href="#">Team</a></li>
-              <li><a href="#">Roadmap</a></li>
-              <li><a href="/learn.html" class="active">Learn</a></li>
-              <li><a href="#">Whitepaper</a></li>
+              <li><a href="#roadmap">Roadmap</a></li>
+              <li><a href="#" class="active">Learn</a></li>
+              <li><a href="getWhitepaperSection/1.html">Whitepaper</a></li>
               <li><a href="#" class="marketplace-btn">Marketplace</a></li>
             </ul>
           </div>
@@ -70,7 +78,9 @@
         <h1 class="title" style="font-weight: 600">LEARN</h1>
       </div>
     </div>
-    <br /><br /><br /><br />
+    <br /><br />
+    <span id="about"></span>
+    <br /><br />
     <!-- player -->
     <div class="container">
       <div class="row">
@@ -117,11 +127,11 @@
         <div class="col-md-2">
           <div class="landing-icons mt-5 icon-responseive">
             <ul class="landing-ul">
-              <a href="#"><i class="fa-solid fa-paper-plane"></i></a>
-              <a href="#"><i class="fa-brands fa-twitter"></i></a>
-              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-              <a href="#"><i class="fa-brands fa-instagram"></i></a>
-              <a href="#"><i class="fa-brands fa-discord"></i></a>
+                <a target="_blank" href="https://t.me/DoRacOfficialchat"><i class="fa-solid fa-paper-plane"></i></a>
+                <a target="_blank" href="https://twitter.com/DoRac_Official"><i class="fa-brands fa-twitter"></i></a>
+                <a target="_blank" href="https://www.facebook.com/DogeRaceOfficial"><i class="fa-brands fa-facebook-f"></i></a>
+                <a target="_blank" href="https://www.instagram.com/dorac_official/"><i class="fa-brands fa-instagram"></i></a>
+                <a target="_blank" href="https://discord.gg/vswdzWUVm8"><i class="fa-brands fa-discord"></i></a>
             </ul>
           </div>
         </div>
@@ -288,6 +298,7 @@
     </div>
 
     <!-- roadmap -->
+    <span id="roadmap"></span>
     <div class="container">
       <p class="roadmap-title-p">Roadmap</p>
       <h2 class="roadmap-title">HOW TO BUY?</h2>
@@ -474,21 +485,21 @@
               </p>
 
               <ul class="footer-ul">
-                <a href="#"><i class="fa-solid fa-paper-plane"></i></a>
-                <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#"><i class="fa-brands fa-discord"></i></a>
+                <a target="_blank" href="https://t.me/DoRacOfficialchat"><i class="fa-solid fa-paper-plane"></i></a>
+                <a target="_blank" href="https://twitter.com/DoRac_Official"><i class="fa-brands fa-twitter"></i></a>
+                <a target="_blank" href="https://www.facebook.com/DogeRaceOfficial"><i class="fa-brands fa-facebook-f"></i></a>
+                <a target="_blank" href="https://www.instagram.com/dorac_official/"><i class="fa-brands fa-instagram"></i></a>
+                <a target="_blank" href="https://discord.gg/vswdzWUVm8"><i class="fa-brands fa-discord"></i></a>
               </ul>
             </div>
           </div>
           <div class="col-md-6">
             <div class="footer-right">
               <ul>
-                <li><a href="#">Home</a></li>
+                <li><a href="/">Home</a></li>
                 <li><a href="#">Learn</a></li>
-                <li><a href="#">How to Buy</a></li>
-                <li><a href="#">Whitepaper</a></li>
+                <li><a href="#roadmap">How to Buy</a></li>
+                <li><a href="getWhitepaperSection/1.html">Whitepaper</a></li>
               </ul>
               <ul>
                 <li>
@@ -520,12 +531,12 @@
                 </li>
               </ul>
               <ul>
-                <li><a href="#">Telegram</a></li>
-                <li><a href="#">DoRacOfficialchat</a></li>
+                <li><a target="_blank" href="https://t.me/DoRacOfficialchat">Telegram</a></li>
+                <li><a target="_blank" href="https://discord.gg/vswdzWUVm8">DoRacOfficialchat</a></li>
               </ul>
             </div>
             <p class="footer-logo-last">
-              Alright Reserved <span>LOGO NAME</span>
+              Alright Reserved <span>DoRac</span>
             </p>
           </div>
         </div>
