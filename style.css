@@ -42,6 +42,18 @@ li {
   font-weight: 300;
   padding: 80px 0 30px 0;
 }
+.modal-content {
+  border: 1px solid #2cade4;
+  background: var(--bgColor) !important;
+}
+.modal-title {
+  color: var(--fontColor) !important;
+}
+.modal-header .btn-close {
+  color: #a7a7a7;
+  font-size: 1rem;
+  font-weight: bold;
+}
 .title2 {
   font-weight: 700;
   font-size: 30px;

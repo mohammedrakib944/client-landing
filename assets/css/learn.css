@@ -10,6 +10,39 @@
   padding-bottom: 40px;
 }
 
+/* dogs section */
+
+.doges {
+  width: 100%;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin-top: 100px;
+}
+.dog {
+  width: 90%;
+  border-radius: 10px;
+  border: 2px solid #7d7d7da1;
+  transform: perspective(600px) rotateY(344deg);
+  margin-top: 10px;
+}
+.dog1 {
+  margin-top: 100px;
+  border-color: rgb(61, 61, 61);
+  margin-left: 55px;
+  box-shadow: 0px 0px 10px #000000;
+  z-index: 1;
+}
+.dog3 {
+  grid-column: 2/-1;
+  margin-top: -115px;
+  margin-left: -20px;
+  box-shadow: 0px 0px 10px #030527d9;
+  z-index: 2;
+}
+/* dogs section */
+
 .simple-para,
 .simple-para2 {
   color: var(--fontColor2);
