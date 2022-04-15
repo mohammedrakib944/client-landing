@@ -2,7 +2,7 @@
   padding: 10px;
   border-radius: 10px;
   border: 1px solid #dddddd36;
-  background: radial-gradient(#56576c, transparent);
+  /* background: radial-gradient(#56576c, transparent); */
 }
 .swiper {
   width: 100%;
