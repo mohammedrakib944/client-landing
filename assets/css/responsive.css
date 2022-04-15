@@ -44,7 +44,11 @@
     backdrop-filter: blur(5px);
   }
   .landing-imge {
-    width: 94%;
+    width: 96.5%;
+    filter: drop-shadow(0px 4px 0px var(--primaryColor));
+  }
+  .logo-name {
+    padding-top: 120px;
   }
   .scroller-svg {
     left: 48%;
@@ -66,6 +70,12 @@
   }
   .roadmap-left {
     /* display: none; */
+  }
+  .responsive-landing-content {
+    height: 1vh;
+    position: absolute;
+    top: 150px;
+    width: 97%;
   }
   ul.roadmap-ul {
     padding: 0 12px;
