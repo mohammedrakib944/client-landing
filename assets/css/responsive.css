@@ -1,7 +1,12 @@
 @media only screen and (max-width: 768px) {
-  .animation {
-    animation: none;
+  #glow {
+  color: #fff;
+  text-shadow: 2px 2px #FF1177;
+  animation: none;
   }
+  /* .animation {
+    animation: none;
+  } */
   .destopDisplayNone {
     display: block;
   }
